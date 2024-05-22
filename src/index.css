@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body .dark {
+    background-color: #232629;
+}
+
+
+.PicFrame {
+    background: linear-gradient(to bottom,
+            #3a3a3a 0%,
+            #3a3a3a 50%,
+            #232629 50%,
+            #232629 100%);
+}
+
+#LeftNavBar a.active {
+    background-color: #232629;
+    border-right: 4px solid #f48225;
+    color: white;
+    font-weight: 600;
+}
